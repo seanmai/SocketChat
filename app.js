@@ -17,5 +17,9 @@ io.on("connection", function(socket){
     socket.on("chat", function(data){
         //Reemits data recieved to all open sockets
         io.sockets.emit("chat", data);
-    })
+    });
+    //Broadcasts data received to open sockets that are not the emitting socket
+    socket.on("typing", function(data){
+        socket.broadcast.emit("typing", data);
+    });
 });
