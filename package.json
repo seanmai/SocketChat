@@ -1,0 +1,15 @@
+{
+  "name": "socketchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/seanmai/SocketChat.git"
+  },
+  "author": "Sean Mai",
+  "license": "ISC"
+}
